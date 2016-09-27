@@ -3,7 +3,6 @@
 * <div class="#f0f4c3 lime lighten-4">**班級Messenger群組名稱是?**</div>
 * <input type="text" id="pwd"></input>
 * <button  class="waves-effect waves-light btn" onclick="login()">**登入**</button>
-<div class="#f0f4c3 lime lighten-4" id="content" hidden>
 	
 <div class="row">
 	<div class="col s12 m12">
