@@ -1,6 +1,6 @@
 <script src="js/factorization.js"></script>
 
-* **輸入數字**:
+* <div class="#f0f4c3 lime lighten-4">**輸入數字:**</div>
 * <input type="text" id="num"></input>
 <button onclick="calc()" class="waves-effect waves-light btn">**因式分解**</button>
 * *<p id="ans">0</p>*
