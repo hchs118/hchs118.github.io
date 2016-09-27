@@ -29,6 +29,6 @@ while(i<=a){
 	else
 		i+=2;
 	count=0;
-}
+	}
 document.getElementById("ans").innerHTML=ans;
 }
