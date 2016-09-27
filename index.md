@@ -1,4 +1,10 @@
-<div class="#f0f4c3 lime lighten-4">**新竹中學118班網**</div>
-=====
-<div class="#f0f4c3 lime lighten-4">*暫定*</div>
------
+<div class="row">
+        <div class="col s12 m6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">**新竹中學118班網**</span>
+              <p>*暫定*</p>
+            </div>
+          </div>
+        </div>
+      </div>
