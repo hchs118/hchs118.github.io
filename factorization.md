@@ -2,7 +2,7 @@
 
 * **輸入數字**:
 * <input type="text" id="num"></input>
-<button onclick="calc()">**因式分解**</button>
+<button onclick="calc()" class="waves-effect waves-light btn">**因式分解**</button>
 * *<p id="ans">0</p>*
 
 ```javascript
