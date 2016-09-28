@@ -9,7 +9,7 @@
           </div>
         </div>
       </div>
-* <input type="text" id="pwd"></input>
+* <input type="text" id="pwd" placeholder="提示:7個字"></input>
 * <button class="waves-effect waves-light btn" onclick="login()">**登入**</button>
 	
 <iframe id="content" hidden style="width:100%;height:270px;" src="content/hidden.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" >
