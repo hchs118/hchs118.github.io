@@ -1,5 +1,4 @@
 <script src="../js/loginsystem.js"></script>
-<script src="../js/materialize.min.js"></script>
 
 <div class="row">
         <div class="col s1 m12">
