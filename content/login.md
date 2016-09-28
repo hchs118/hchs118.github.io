@@ -12,5 +12,5 @@
 * <input type="text" id="pwd"></input>
 * <button class="waves-effect waves-light btn" onclick="login()">**登入**</button>
 	
-<iframe id="content" hidden style="width:100%;height:100%;" src="content/hidden.html" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" >
+<iframe id="content" hidden style="width:100%;height:100%;" src="hidden.html" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" >
 </iframe>
