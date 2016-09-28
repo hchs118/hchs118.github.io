@@ -1,0 +1,24 @@
+<html>
+
+<head>
+	<title>測試用</title>
+	<link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
+</head>
+<body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="../js/materialize.js"></script> 
+	<script>function toast(){
+		var str=$("#text").val();
+		Materialize.toast(str,3000,"rounded");
+	}
+	</script>
+	<button onclick="toast();" class="btn tooltipped" data-position="bottom" data-tooltip="打字後點我">
+		<input id="text" value="這邊可以打字"></input>
+	</button>
+	<br><br>
+	<a href="#!" class="btn tooltipped" data-position="right" data-tooltip="淡入" onclick="Materialize.fadeInImage(&quot;#img&quot;)">點我</a><br>
+	<img id="img" width="650" src="../media/uyuni1.jpg">
+	<img data-position="right" data-tooltip="點我放大" class="materialboxed tooltipped" width="650" src="../media/uyuni1.jpg">
+</body>
+
+</html>
