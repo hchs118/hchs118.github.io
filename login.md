@@ -1,6 +1,14 @@
 <script src="js/login.js"></script>
 
-* <div class="#f0f4c3 lime lighten-4">**班級Messenger群組名稱是?**</div>
+* <div class="row">
+        <div class="col s12 m1">
+          <div class="card blue darken-3">
+            <div class="card-content white-text">
+				<span class="card-title">班級Messenger群組名稱是?</span>
+            </div>
+          </div>
+        </div>
+      </div>
 * <input type="text" id="pwd"></input>
 * <button  class="waves-effect waves-light btn" onclick="login()">**登入**</button>
 	

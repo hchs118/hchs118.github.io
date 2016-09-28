@@ -1,9 +1,25 @@
 <script src="js/factorization.js"></script>
 
-* <div class="#f0f4c3 lime lighten-4">**輸入數字:**</div>
+* <div class="row">
+        <div class="col s12 m1">
+          <div class="card blue darken-3">
+            <div class="card-content white-text">
+				<span class="card-title">輸入數字:</span>
+            </div>
+          </div>
+        </div>
+      </div>
 * <input type="text" id="num"></input>
 <button onclick="calc()" class="waves-effect waves-light btn">**因式分解**</button>
-* *<p id="ans">0</p>*
+* <div class="row">
+        <div class="col s12 m1">
+          <div class="card blue darken-3">
+            <div class="card-content white-text">
+				<span id="ans" class="card-title"></span>
+            </div>
+          </div>
+        </div>
+      </div>
 
 ```javascript
 function calc(){
