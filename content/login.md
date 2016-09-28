@@ -1,4 +1,4 @@
-<script src="./js/login.js"></script>
+<script src="../js/login.js"></script>
 
 * <div class="row">
         <div class="col s1 m12">

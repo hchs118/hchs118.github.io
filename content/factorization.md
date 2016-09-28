@@ -1,4 +1,4 @@
-<script src="./js/factorization.js"></script>
+<script src="../js/factorization.js"></script>
 
 * <div class="row">
         <div class="col s1 m12">
