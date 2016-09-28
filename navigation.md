@@ -8,3 +8,4 @@
 
 [因數分解](content/factorization.md)
 [班級登入系統](content/loginsystem.md)
+[測試](content/test.md)
