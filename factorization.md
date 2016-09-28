@@ -2,7 +2,7 @@
 
 * <div class="row">
         <div class="col s1 m12">
-          <div class="card blue darken-3">
+          <div class="card blue">
             <div class="card-content white-text">
 				<span class="card-title">輸入數字:</span>
             </div>
@@ -13,7 +13,7 @@
 <button onclick="calc()" class="waves-effect waves-light btn">**因式分解**</button>
 * <div class="row">
         <div class="col s1 m12">
-          <div class="card blue darken-3">
+          <div class="card blue">
             <div class="card-content white-text">
 				<span id="ans" class="card-title"></span>
             </div>
