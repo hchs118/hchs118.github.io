@@ -9,7 +9,7 @@
           </div>
         </div>
       </div>
-* <input type="text" id="num" placeholder="小於"></input>
+* <input type="text" id="num" placeholder="一個整數"></input>
 <button onclick="calc()" class="waves-effect waves-light btn">**因式分解**</button>
 * <div class="row">
         <div class="col s1 m12">
