@@ -9,12 +9,13 @@
           </div>
         </div>
       </div>
-* <input type="text" id="num"></input>
+* <input type="text" id="num" placeholder="小於"></input>
 <button onclick="calc()" class="waves-effect waves-light btn">**因式分解**</button>
 * <div class="row">
         <div class="col s1 m12">
           <div class="card blue">
             <div class="card-content white-text">
+				<span id="n"></span>
 				<span id="ans" class="card-title"></span>
             </div>
           </div>

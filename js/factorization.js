@@ -1,7 +1,8 @@
 function calc(){
-var a=document.getElementById("num").value;
+var a=$("#num").val();
+$("#n").val(a+"=");
 a=Number(a);
-var ans=a+"=";
+var ans;
 var i=2,count=0;
 var x=false;
 if(a==1)
@@ -30,5 +31,5 @@ while(i<=a){
 		i+=2;
 	count=0;
 	}
-document.getElementById("ans").innerHTML=ans;
+$("#ans").val(ans);
 }
