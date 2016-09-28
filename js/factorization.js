@@ -2,7 +2,7 @@ function calc(){
 var a=$("#num").val();
 $("#n").val(a+"=");
 a=Number(a);
-var ans;
+var ans="";
 var i=2,count=0;
 var x=false;
 if(a==1)
