@@ -6,10 +6,10 @@ function login(){
 		document.getElementById("content").removeAttribute("hidden");
 		Materialize.toast('登入成功',3000,'rounded');
 	}
-	else if(pwd==ans && logined){
+	if(pwd==ans && logined){
 		Materialize.toast('已登入',3000,'rounded');
 	}
-	else if(pwd!=ans){
+	if(pwd!=ans){
 		document.getElementById("content").setAttribute("hidden");
 		Materialize.toast('登入失敗',3000,'rounded');
 	}
