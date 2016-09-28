@@ -1,6 +1,7 @@
 function calc(){
 var a=$("#num").val();
-$("#n").text(a+"=");
+if(a!="")
+	$("#n").text(a+"=");
 a=Number(a);
 var ans="";
 var i=2,count=0;
