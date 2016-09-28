@@ -9,12 +9,11 @@ function login(){
 		else{
 			document.getElementById("content").removeAttribute("hidden");
 			Materialize.toast('登入成功',3000,'rounded');
-			logined=true;
+			logined=!logined;
 		}
-	
-	if(pwd!=ans){
+	else{
 		document.getElementById("content").setAttribute("hidden");
 		Materialize.toast('登入失敗',3000,'rounded');
-		logined=false;
+		logined=!logined;
 	}
 }
