@@ -1,5 +1,5 @@
 function login(){
-	var pwd=document.getElementById("pwd").value;
+	var pwd=$("#pwd").val();
 	if(pwd=="惠比壽麝香葡萄")
 		document.getElementById("content").removeAttribute("hidden");
 	else
