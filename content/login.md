@@ -1,3 +1,3 @@
 <script type="text/javascript">
-    window.location = "../mdwiki.html#!login.html";
+    window.location = "../mdwiki.html#!content/login.html";
 </script>
