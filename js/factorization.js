@@ -1,6 +1,6 @@
 function calc(){
 var a=$("#num").val();
-$("#n").val(a+"=");
+$("#n").text(a+"=");
 a=Number(a);
 var ans="";
 var i=2,count=0;
@@ -31,5 +31,5 @@ while(i<=a){
 		i+=2;
 	count=0;
 	}
-$("#ans").val(ans);
+$("#ans").text(ans);
 }
