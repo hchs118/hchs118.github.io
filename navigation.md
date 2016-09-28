@@ -7,5 +7,5 @@
 # 新竹中學118
 
 [因數分解](content/factorization.md)
-[班級登入系統](content/loginsystem.md)
+[班級登入系統](content/login.md)
 [測試](content/test.md)
