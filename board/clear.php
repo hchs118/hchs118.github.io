@@ -3,8 +3,11 @@
 	if($pwd=="clear"){
 		$f=fopen("board.txt","w");
 		fwrite($f,"");
+		fclose($f);
 		$f=fopen("ip.txt","w");
 		fwrite($f,"");
+		fclose($f);
 	}
-	echo "<script>window.location.href=\"board.php\";</script>";
+	sleep(1);
 ?>
+<script>window.location.href="board.php";</script>

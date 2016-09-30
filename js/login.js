@@ -1,21 +1,20 @@
+var logined=false;
 function login(){
 	var ans="惠比壽麝香葡萄";
 	var pwd=$("#pwd").val();
-	var logined=false;
 	if(pwd!=ans){
-		document.getElementById("content").setAttribute("hidden");
+		$("#content").hide();
 		Materialize.toast('登入失敗',3000,'rounded');
-		logined=!logined;
+		logined=false;
 	}
 	
 	if(pwd==ans)
-		if(logined){
+		if(logined==true){
 			Materialize.toast('已登入',3000,'rounded');
 		}
 		else{
-			document.getElementById("content").removeAttribute("hidden");
+			$("#content").show();
 			Materialize.toast('登入成功',3000,'rounded');
-			logined=!logined;
+			logined=true;
 		}
-	
 }
