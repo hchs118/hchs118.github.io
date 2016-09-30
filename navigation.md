@@ -4,6 +4,6 @@
 
 # 新竹中學118
 
-[因數分解](content/factorization.md)
+[留言板](board/board.php)
 [班級登入系統](content/login.md)
 [測試(可能會lag)](content/test.html)
