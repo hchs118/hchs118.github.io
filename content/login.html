@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<title>班級登入系統</title>
 	<link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
 	<script src="../js/qs.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -8,11 +9,20 @@
 	<script>
 		$(document).ready(function(){
 			if(QueryString.pwd=="惠比壽麝香葡萄"){
+				window.location="./login.html?act=logined";
+			}
+			else if(QueryString.pwd)
+				window.location="./login.html?act=wrong";
+				
+			if(QueryString.act=="logined"){
 				$("#behide").empty();
 				$("#content").show();
 				Materialize.toast('登入成功',5000,'rounded');
+				$(".active").show();
 			}
-			else if(QueryString.pwd)
+			else if(QueryString.act=="logout")
+				Materialize.toast('已登出',5000,'rounded');
+			else if(QueryString.act=="wrong")
 				Materialize.toast('登入失敗',5000,'rounded');
 		});
 	</script>
@@ -21,7 +31,8 @@
 <nav>
     <div class="nav-wrapper">
 		<ul id="nav-mobile" class="left hide-on-med-and-down">
-			<li><a href=".//">回首頁</a></li>
+			<li><a href="../">回首頁</a></li>
+			<li hidden class="active"><a href="./login.html?act=logout">登出</a></li>
 		</ul>
 	</div>
 </nav>
