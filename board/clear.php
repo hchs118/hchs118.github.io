@@ -7,7 +7,7 @@
 		$f=fopen("ip.txt","w");
 		fwrite($f,"");
 		fclose($f);
+		sleep(1);
 	}
-	sleep(1);
 ?>
 <script>window.location.href="board.php";</script>
