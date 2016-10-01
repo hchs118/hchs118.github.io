@@ -18,8 +18,7 @@
 				$("#behide").empty();
 				$("#content").show();
 				Materialize.toast('登入成功',5000,'rounded');
-				$(".active").show();
-				$("#hide").hide();
+				$("#now").html("<a href=\"../content/login.html?act=logout\">登出</a>");
 			}
 			else if(QueryString.act=="logout")
 				Materialize.toast('已登出',5000,'rounded');
@@ -34,8 +33,7 @@
 		<a href="javascript: window.location.reload();" class="brand-logo center">班級登入系統</a>
 		<ul id="nav-mobile" class="left hide-on-med-and-down">
 			<li><a href="../index.html">首頁</a></li>
-			<li id="hide" class="active"><a href="../content/login.html">班級登入系統</a></li>
-			<li hidden class="active"><a href="./login.html?act=logout">登出</a></li>
+			<li id="now" class="active"><a href="../content/login.html">班級登入系統</a></li>
 			<li><a href="../board/board.php">留言板</a></li>
 			<li><a href="../content/test.html">測試用</a></li>
 		</ul>
